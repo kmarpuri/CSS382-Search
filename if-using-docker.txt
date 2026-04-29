@@ -1,0 +1,14 @@
+
+If you are using Docker under Windows, 
+you can run MobaXterm https://mobaxterm.mobatek.net/download-home-edition.html and use
+
+$ export DISPLAY=host.docker.internal:0
+
+to have the DISPLAY set under docker to be Windows
+
+Alternatively, under Windows use 
+
+> ipconfig
+
+to find the correct IP number for DISPLAY
+
